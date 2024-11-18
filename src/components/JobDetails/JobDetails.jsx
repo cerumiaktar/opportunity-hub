@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { CiDollar } from "react-icons/ci";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { saveJobApplication } from "../../utility/localstorage";
 
 const JobDetails = () => {
     const jobs = useLoaderData();
@@ -11,6 +12,7 @@ const JobDetails = () => {
     console.log(job, id);
 
     const handleToast = () =>{
+        saveJobApplication(idiInt);
         toast('You have Applied Successfully');
     }
 
