@@ -13,17 +13,17 @@ const FeaturedJobs = () => {
     }, [])
     return (
         <div>
-            <div className="mb-5">
+            <div className="mb-6 space-y-2">
                 <h2 className="text-2xl font-medium text-center">Featured Jobs:{jobs.length}</h2>
-                <p className="text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <p className="text-center">Explore thousands of job opportunities with all the information you need.</p>
             </div>
             <div className="grid grid-cols-2 gap-10 mb-10">
                 {
                     jobs.slice(0, dataLength).map(job =><Job key={job.id} job={job}></Job>)
                 }
             </div>
-            <div className="text-center mb-10n">
-                <button onClick={() => setDataLength()} className="btn btn-primary ">See all Jobs</button>
+            <div className="text-center mb-10">
+                <button onClick={() => setDataLength()} className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white">See all Jobs</button>
             </div>
         </div>
     );

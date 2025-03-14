@@ -22,7 +22,7 @@ const Job = ({ job }) => {
                 </div>
                 <div className="card-actions">
                     <Link to={`/job/${id}`}>
-                        <button className="btn btn-primary">View Details</button>
+                        <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white">View Details</button>
                     </Link>
                 </div>
             </div>

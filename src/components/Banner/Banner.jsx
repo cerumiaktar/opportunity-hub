@@ -13,7 +13,7 @@ const Banner = () => {
                     <p className="py-6">
                         Explore thousands of job opportunities with all the information <br /> you need. Its your future. Come find it. 
                     </p>
-                    <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">Get Started</button>
+                    <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white">Get Started</button>
                 </div>
             </div>
         </div>

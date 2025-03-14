@@ -1,12 +1,12 @@
 import Banner from "../Banner/Banner";
-import CategoryList from "../CategoryList/CategoryList";
+import Categories from "../Categories/Categories";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <CategoryList></CategoryList>
+            <Categories></Categories>
             <FeaturedJobs></FeaturedJobs>
         </div>
     );
