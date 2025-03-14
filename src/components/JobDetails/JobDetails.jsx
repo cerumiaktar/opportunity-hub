@@ -17,19 +17,19 @@ const JobDetails = () => {
     }
 
     return (
-        <div>
+        <div className="mt-10 mb-10">
             <h2 className="text-2xl font-medium text-center mb-3">Job Details</h2>
             <div className="grid md:grid-cols-4 gap-4">
-                <div className="border-2 border-blue-300 md:col-span-3 p-4 rounded">
-                    <h4 > <span className="text-xl font-medium">Job Details:</span> {job.job_description}</h4>
-                    <h4 className="mt-3 mb-3"> <span className="text-xl font-medium ">Job Responsibility:</span> {job.job_responsibility}</h4>
+                <div className="border-2 border-blue-300 md:col-span-3 p-4 rounded space-y-6">
+                    <h4 className="leading-7 text-[#757575]" > <span className="text-xl font-medium text-black">Job Details:</span> {job.job_description}</h4>
+                    <h4 className="mt-3 mb-3 leading-7 text-[#757575]"> <span className="text-xl font-medium text-black">Job Responsibility:</span> {job.job_responsibility}</h4>
                     <div>
                         <h4 className="text-xl font-medium">Educational Requirement:</h4>
-                        <p>{job.educational_requirements}</p>
+                        <p className="text-[#757575]">{job.educational_requirements}</p>
                     </div>
                     <div>
                         <h4 className="text-xl font-medium">Experience:</h4>
-                        <p>{job.experiences}</p>
+                        <p className="text-[#757575]">{job.experiences}</p>
                     </div>
                 </div>
                 <div className="border-2 border-blue-300 p-4 rounded">

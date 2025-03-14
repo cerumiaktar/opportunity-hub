@@ -14,7 +14,7 @@ const Categories = () => {
         <div className="mb-10">
             <div className="space-y-2">
                 <h2 className="text-2xl font-medium text-center">Job Category List</h2>
-                <p className="text-center">Explore thousands of job opportunities with all the information you need.</p>
+                <p className="text-center text-[#757575]">Explore thousands of job opportunities with all the information you need.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                 {
