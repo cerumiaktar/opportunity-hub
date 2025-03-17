@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredJobApplication } from "../../utility/localstorage";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 
 const AppliedJobs = () => {
@@ -34,9 +35,9 @@ const AppliedJobs = () => {
     }, [])
     return (
         <div>
-            <h1>Applied Jobs: {appliedJobs.length}</h1>
-            <details className="dropdown">
-                <summary className="btn m-1">open or close</summary>
+            <h1 className="text-2xl font-medium text-center mt-8 mb-8 bg-gradient-to-r from-[#7E90FE1F] to-[#9873FF1F] py-10 rounded-2xl">Applied Jobs: {appliedJobs.length}</h1>
+            <details className="dropdown flex justify-end">
+                <summary className="btn m-1">Filter By<MdKeyboardArrowDown /></summary>
                 <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                     <li onClick={() => handleJobsFilter('all')}><a>All</a></li>
                     <li onClick={() => handleJobsFilter('remote')}><a>Remote</a></li>
