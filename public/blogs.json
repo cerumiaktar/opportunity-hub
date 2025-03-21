@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "img": "https://example.com/blog1.jpg",
+        "title": "The Future of UI/UX Design",
+        "description": "Explore upcoming trends and innovations shaping the future of UI/UX design."
+    },
+    {
+        "id": 2,
+        "img": "https://example.com/blog2.jpg",
+        "title": "Web Design Best Practices",
+        "description": "A guide to the best practices for designing modern, responsive websites."
+    },
+    {
+        "id": 3,
+        "img": "https://example.com/blog3.jpg",
+        "title": "How to Optimize UX for E-Commerce",
+        "description": "Learn how to enhance user experience and boost conversions for online stores."
+    },
+    {
+        "id": 4,
+        "img": "https://example.com/blog4.jpg",
+        "title": "Figma Tips and Tricks",
+        "description": "Master Figma with these expert tips for faster and more efficient design workflows."
+    },
+    {
+        "id": 5,
+        "img": "https://example.com/blog5.jpg",
+        "title": "Understanding Color Psychology in Design",
+        "description": "Discover how color influences user emotions and behavior in web design."
+    },
+    {
+        "id": 6,
+        "img": "https://example.com/blog6.jpg",
+        "title": "10 Must-Have Skills for a UI/UX Designer",
+        "description": "A list of essential skills every UI/UX designer should master."
+    },
+    {
+        "id": 7,
+        "img": "https://example.com/blog7.jpg",
+        "title": "Dark Mode vs Light Mode",
+        "description": "Which is better? Pros and cons of dark mode and light mode in UI design."
+    },
+    {
+        "id": 8,
+        "img": "https://example.com/blog8.jpg",
+        "title": "How to Build a Portfolio as a Web Designer",
+        "description": "Steps to create a professional web design portfolio that attracts clients."
+    },
+    {
+        "id": 9,
+        "img": "https://example.com/blog9.jpg",
+        "title": "The Role of Animation in UX",
+        "description": "How animations improve user engagement and create a smooth experience."
+    },
+    {
+        "id": 10,
+        "img": "https://example.com/blog10.jpg",
+        "title": "Essential Typography Rules for Web Designers",
+        "description": "A guide to choosing and using typography effectively in web design."
+    },
+    {
+        "id": 11,
+        "img": "https://example.com/blog11.jpg",
+        "title": "How to Create a Minimalist Website",
+        "description": "Learn how to design clean, functional, and aesthetically pleasing minimalist websites."
+    },
+    {
+        "id": 12,
+        "img": "https://example.com/blog12.jpg",
+        "title": "Top UI/UX Tools in 2025",
+        "description": "A comparison of the best UI/UX design tools to use in 2025."
+    },
+    {
+        "id": 13,
+        "img": "https://example.com/blog13.jpg",
+        "title": "The Importance of Wireframing",
+        "description": "Why wireframing is a crucial step in the UI/UX design process."
+    },
+    {
+        "id": 14,
+        "img": "https://example.com/blog14.jpg",
+        "title": "SEO Best Practices for Web Designers",
+        "description": "How web designers can optimize websites for better search engine rankings."
+    },
+    {
+        "id": 15,
+        "img": "https://example.com/blog15.jpg",
+        "title": "How to Improve Website Loading Speed",
+        "description": "Tips to optimize website performance and improve user experience."
+    },
+    {
+        "id": 16,
+        "img": "https://example.com/blog16.jpg",
+        "title": "The Science of User Behavior in Web Design",
+        "description": "Understanding psychology to create user-friendly and high-converting websites."
+    }
+]
